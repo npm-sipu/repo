@@ -1,0 +1,164 @@
+https://getcomposer.org/doc/00-intro.md#globally
+
+https://www.youtube.com/watch?v=9VLWgs_G90A&t=465s
+
+https://www.wampserver.com/en/download-wampserver-64bits/#download-wrapper
+
+Ls, mkdir, rmdir, touch, cp, mv, pwd, whoami, cat, vim, cd .., cntrl+r, rm,:wq!
+
+head - will show first 10 lines.
+tail - bottom 10 lines.
+
+cat first.txt
+open the file.
+
+cat > first.txt : for creating and writing content.
+enter
+type contents.
+
+diff - diffrence for file.
+
+grip - whatever to find the word.
+
+ping - will check the ping.
+
+hostname - sys ip address.
+nl - will print the file with line number.
+uniq - will remove sequence line.
+
+wc command.
+wc -m character count
+wc -l line count
+
+find /home -type f -name to find file.
+
+
+find /home -type d -name to find folder.
+
+ls -l - will show permission
+ls -lha - will show hidden file's permission
+ls -a will show the hidden folder
+.. - prev directory
+. - current directory.
+
+0	No permission	---
+1	Execute permission	--x
+2	Write permission	-w-
+3	Execute and write permission: 1 (execute) + 2 (write) = 3 -wx
+4	Read permission	r--
+5	Read and execute permission: 4 (read) + 1 (execute) = 5	r-x
+6	Read and write permission: 4 (read) + 2 (write) = 6 rw-
+7	All permissions: 4 (read) + 2 (write) + 1 (execute) = 7	rwx
+
+chmod u/g/o (+/-/=) r/w/x - to give and remove permission
+
+
+
+composer.
+
+composer require for adding library.
+composer remove for removing library.
+composer update.
+
+Install the following plugins
+
+Auto Rename Tag
+Auto Close Tag
+Bracket Pair Colorizer 2
+Code spell checker
+Colorize
+Composer
+Drupal 8 JavaScript snippet
+Drupal 8 Twig snippets
+Drupal Smart Snippets
+Empty Indent
+Gitlens
+Indent-rainbow
+IntelliSense for CSS class names in HTML
+PHP Docblocker
+PHP Intelephense
+PHP Debug
+PHP IntelliSense
+PHP Namespace Resolver
+Phpcbf
+Phpcs
+SCSS Intellisense
+Twig Language 2
+Path Intellisense
+Docker
+SCSS Formatter
+YAML Language Support by Red Hat
+
+PHP IntelliSense
+PHP Namespace Resolver
+
+pat
+ssh key
+password
+
+git innit
+git status
+git log
+git revert (id)
+git diff
+git stash --all  :undo
+git stash pop :
+git log : it will show the log
+git log --oneline
+git reset (id)
+git push origin master --force
+git push origin stage
+git clean -n will dry run untracked file
+git clean -f will remove the file
+git cherry-pick : particular commit log will be picked will be shown in main branch. 
+git merge : will make a commit.
+ git rebase: will not make a commit but merge the branch.
+ git revert
+git revert head~1..head~3
+git revert --continue
+ git cherry-pick
+ git pull
+ git remote set-url
+git show (commit id) : will show changes on commit id.
+git config --add merge.ff false
+git branch -a : will show all the branches.
+git clone -b <branchname> <url>
+
+
+
+
+git config -l
+git config user.name "sujitbhatta"
+$ ssh-keygen -t rsa -b 4096 -c "sujit.bhatta95@gmail.com"
+
+
+
+
+git remote set-url origin https://npm-sipu@github.com/npm-sipu/repo.git
+git push origin master
+git push --set-upstream origin master
+
+
+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
+
+$ git remote add origin git@github.com:npm-sipu/movie-comparison.git
+$ ssh-keygen -t ed25519 -C "sujit.bhatta95@gmail.com"
+eval "$(ssh-agent -s)"
+
+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
+
+git log
+git add 
+git commit
+git push
+git clone
+git reset
+git reset hard
+git revert
+git stash all pop clear
+git pull
+git fetch
+git reflog
+git merge
+git rebase
+conflict with merge, rebase, revert
